@@ -23,7 +23,7 @@ main(int argc, char** argv)
     if (s <= FLT_EPSILON)
       inside++;
   }
-  double pi_by_four = (double)inside / i;
-  printf("pi is: %1000f\n", pi_by_four * 4);
+  long double pi = (long double)(inside * 4) / i;
+  printf("pi is: %.10Lf\n", pi);
   return 0;
 }
