@@ -1,3 +1,4 @@
+// Program to estimate value of π using Monte Carlo method
 #include <float.h>
 #include <limits.h>
 #include <stdio.h>
